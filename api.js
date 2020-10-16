@@ -13,6 +13,8 @@ var connection = mysql.createConnection({
     database : 'BU'
 });
 
+
+
 /************* Routing **************/
 //api Index
 api.get('/', (req, res, next) => {
